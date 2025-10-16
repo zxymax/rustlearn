@@ -8,22 +8,22 @@
 
 ```
 src/
-├── main.rs                # 主程序入口，提供交互式选择菜单
-├── _01_variables.rs       # 变量和数据类型
-├── _02_functions_control_flow.rs  # 函数和流程控制
-├── _03_structs.rs         # 结构体
-├── _04_enums.rs           # 枚举
-├── _05_pattern_matching.rs # 模式匹配
-├── _06_collections.rs     # 常见集合及其操作
-├── _07_packages_modules.rs # 包和模块
-├── _08_error_handling.rs  # 错误处理
-├── _09_generics.rs        # 泛型
-└── _10_lifetimes.rs       # 生命周期
+├── [main.rs](https://github.com/zxymax/rustlearn/blob/main/src/main.rs)                # 主程序入口，提供交互式选择菜单
+├── [_01_variables.rs](https://github.com/zxymax/rustlearn/blob/main/src/_01_variables.rs)       # 变量和数据类型
+├── [_02_functions_control_flow.rs](https://github.com/zxymax/rustlearn/blob/main/src/_02_functions_control_flow.rs)  # 函数和流程控制
+├── [_03_structs.rs](https://github.com/zxymax/rustlearn/blob/main/src/_03_structs.rs)         # 结构体
+├── [_04_enums.rs](https://github.com/zxymax/rustlearn/blob/main/src/_04_enums.rs)           # 枚举
+├── [_05_pattern_matching.rs](https://github.com/zxymax/rustlearn/blob/main/src/_05_pattern_matching.rs) # 模式匹配
+├── [_06_collections.rs](https://github.com/zxymax/rustlearn/blob/main/src/_06_collections.rs)     # 常见集合及其操作
+├── [_07_packages_modules.rs](https://github.com/zxymax/rustlearn/blob/main/src/_07_packages_modules.rs) # 包和模块
+├── [_08_error_handling.rs](https://github.com/zxymax/rustlearn/blob/main/src/_08_error_handling.rs)  # 错误处理
+├── [_09_generics.rs](https://github.com/zxymax/rustlearn/blob/main/src/_09_generics.rs)        # 泛型
+└── [_10_lifetimes.rs](https://github.com/zxymax/rustlearn/blob/main/src/_10_lifetimes.rs)       # 生命周期
 ```
 
 ## 学习内容概览
 
-### 1. 变量和数据类型 (Variables and Data Types)
+### 1. [变量和数据类型 (Variables and Data Types)](https://github.com/zxymax/rustlearn/blob/main/src/_01_variables.rs)
 - 变量的可变性与不可变性
 - 变量声明和初始化
 - 基本数据类型：整数、浮点数、布尔值、字符
@@ -31,14 +31,14 @@ src/
 - 类型转换
 - 常量和静态变量
 
-### 2. 函数和流程控制 (Functions and Control Flow)
+### 2. [函数和流程控制 (Functions and Control Flow)](https://github.com/zxymax/rustlearn/blob/main/src/_02_functions_control_flow.rs)
 - 函数定义和调用
 - 函数参数和返回值
 - 条件表达式（if-else）
 - 循环（loop、while、for）
 - 控制流操作符（break、continue、return）
 
-### 3. 结构体 (Structs)
+### 3. [结构体 (Structs)](https://github.com/zxymax/rustlearn/blob/main/src/_03_structs.rs)
 - 结构体定义与实例化
 - 元组结构体
 - 单元结构体
@@ -48,14 +48,14 @@ src/
 - 结构体更新语法
 - 解构结构体
 
-### 4. 枚举 (Enums)
+### 4. [枚举 (Enums)](https://github.com/zxymax/rustlearn/blob/main/src/_04_enums.rs)
 - 枚举定义
 - 枚举变体
 - Option 枚举
 - 枚举方法和关联函数
 - 枚举的内存布局
 
-### 5. 模式匹配 (Pattern Matching)
+### 5. [模式匹配 (Pattern Matching)](https://github.com/zxymax/rustlearn/blob/main/src/_05_pattern_matching.rs)
 - match 表达式
 - if let 表达式
 - while let 循环
@@ -63,7 +63,7 @@ src/
 - 解构模式
 - 通配符和占位符
 
-### 6. 常见集合及其操作 (Collections)
+### 6. [常见集合及其操作 (Collections)](https://github.com/zxymax/rustlearn/blob/main/src/_06_collections.rs)
 - 向量（Vec）
 - 字符串（String）
 - HashMap
@@ -71,7 +71,7 @@ src/
 - 集合的遍历和修改
 - 集合的性能特点
 
-### 7. 包和模块 (Packages and Modules)
+### 7. [包和模块 (Packages and Modules)](https://github.com/zxymax/rustlearn/blob/main/src/_07_packages_modules.rs)
 - 包、 crate 和模块的概念
 - 模块的定义和使用
 - 路径解析
@@ -79,7 +79,7 @@ src/
 - use 关键字简化导入
 - 嵌套模块
 
-### 8. 错误处理 (Error Handling)
+### 8. [错误处理 (Error Handling)](https://github.com/zxymax/rustlearn/blob/main/src/_08_error_handling.rs)
 - 错误类型：可恢复错误和不可恢复错误
 - panic! 宏
 - Result 枚举
@@ -90,7 +90,7 @@ src/
 - unwrap 和 expect 方法
 - 错误处理最佳实践
 
-### 9. 泛型 (Generics)
+### 9. [泛型 (Generics)](https://github.com/zxymax/rustlearn/blob/main/src/_09_generics.rs)
 - 泛型函数
 - 泛型结构体和枚举
 - 泛型方法
@@ -98,7 +98,7 @@ src/
 - 关联类型
 - 泛型的性能影响
 
-### 10. 生命周期 (Lifetimes)
+### 10. [生命周期 (Lifetimes)](https://github.com/zxymax/rustlearn/blob/main/src/_10_lifetimes.rs)
 - 生命周期的概念
 - 生命周期注解
 - 函数中的生命周期
